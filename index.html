@@ -1,0 +1,345 @@
+
+    
+    <!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sitios turisticos de la guajira</title>
+    </head>
+    <body>
+
+        <button onclick="mostrarAlerta()"></button>
+        <script src="action.js"></script>
+        <br><br>
+
+        
+
+
+        
+    
+        <header> 
+          
+            <nav>
+                <ul>
+                    <nav li {display:inline;}><a href="#">Inicio</a></li>
+                    <nav li {display:inline;}> <a href="#">Nuestros Destinos</a></li>
+                    <nav li {display:inline;}><a href="#">Promociones</a></li>
+                    <nav li {display:inline;}><a href="#">Cotiza Aqui</a></li>
+                    <nav li {display:inline;}><a href="#">Mi Reserva</a></li>
+                    <nav li {display:inline;}><a href="#">Pagos</a></li>
+                    <nav li {display:inline;}><a href="#">Contactanos</a></li>
+                </ul>
+            </nav>
+
+
+<nav ul {list-style-type:none;}></nav>
+<nav li {display: inline;}></nav>
+
+
+        
+
+        
+</header>
+          
+   <style>    
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Formulario de Registro</title>
+<style>
+/* Estilo para la estructura general
+/
+body {
+font-family: Arial, sans-serif; /
+Fuente legible y profesional /
+background-color: #f4f4f9; /
+Color de fondo claro /
+margin: 0;
+padding: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh; /
+Ocupa toda la altura de la ventana */
+
+
+.form-container{
+background: #ffffff; /* Fondo blanco para contraste */
+padding: 20px;
+border-radius: 10px; /* Bordes redondeados */
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+width: 100%;
+max-width: 400px; }/* Ancho máximo */
+.form-container {
+background: #ffffff; /* Fondo blanco para contraste */
+padding: 20px;
+border-radius: 10px; /* Bordes redondeados */
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+width: 100%;
+max-width: 400px; /* Ancho máximo */
+}
+h1 {
+font-size: 1.5rem;
+color: #333333; /* Texto oscuro */
+text-align: center;
+margin-bottom: 20px;
+}
+.form-group {
+margin-bottom: 15px; /* Espaciado entre campos */
+}
+label {
+display: block;
+font-weight: bold;
+margin-bottom: 5px;
+color: #555;}
+input, select {
+width: 100%; /* Ancho completo del campo */
+padding: 10px;
+font-size: 1rem;
+border: 1px solid #ccc; /* Bordes grises */
+border-radius: 5px; /* Bordes redondeados */
+outline: none;
+}
+input:focus {
+border-color: #007bff; /* Color del borde al enfocar */
+box-shadow: 0 0 4px rgba(0, 123, 255, 0.2);}
+.btn {
+display: block;
+width: 100%; /* Botón ancho completo */
+padding: 10px;
+font-size: 1rem;
+color: #ffffff;
+background-color: #007bff; /* Color del botón */
+border: none;
+border-radius: 5px;
+cursor: pointer;
+margin-top: 10px;
+transition: background-color 0.3s ease; /* Animación al pasar el
+ratón */
+}
+.btn:hover {
+background-color: #0056b3; /* Color al pasar el ratón */
+}
+</style>   
+
+<h1>CONTACTANOS</h1>
+    
+        <form 
+        action="Procesar_datos.php"
+        method="post"
+        enctype="multipart/form-data"
+        name="formulario_contacto"
+        target="_blank"
+        >
+        <br>
+        <label for="Contactanos"></label>
+      <p > <b>Diligencia este formulario y en breve nos comunicamos
+        contigo para que tengas ese viaje soñado!</b> </p>
+        <br>
+        
+        <div class="form-group">
+        <label for="nombre">Nombre</label>                                      
+        <input                                                                  
+        type="text"
+        id="nombre"
+        name="nombre"
+        placeholder="Escribe tu nombre"
+        required>
+        </div>
+    
+        <div>
+        <label for="Correo">Correo electronico</label>
+        <input type="email"
+        id="correo"
+        name="correo"
+        placeholder="Escribe tu correo"
+        required>
+        </div>
+    
+        <br>
+        <br>
+        <br>
+    
+        <div>
+        <label for="celular">Celular</label>
+        <input 
+        type="celular"
+        id="celular"
+        name="celular"
+        placeholder="Escribe tu numero de telefono"
+        required>
+        </div>
+
+        <div>
+        <label for="Ciudad donde te encuentras">Ciudad donde te encuentras</label>
+        <input 
+        type="text"
+        id="Ciudad donde te encuentras"
+        name="Ciudad donde te encuentras"
+        placeholder="Ciudad donde te encuentras"
+        required>
+    </div>
+
+        <br>
+        <br>
+        <br>
+    <div>
+        <label for="Destino">Destino</label>
+        <input type="destino"
+        id="destino"
+        name="destino"
+        placeholder="Escribe el destino al que quieres ir"
+        required>
+    </div>
+    
+    <div>
+    <label for="Numero de pasajeros">Numero de pasajeros</label>
+    <input 
+    type="number"
+    id="numero de pasajeros"
+    name="numero de pasajeros"
+    placeholder="numero de pasajeros"
+    required>
+</div>
+    
+    <br><br>
+
+    <div>
+    <p>Viajan menores de 11 años?</p>
+    <label for="opciones"></label>      
+    <select 
+    id="hay menores de 11 años"
+    name="opciones" 
+    
+    >
+    <option value="Si">Si</option>
+    <option value="No">No</option>
+</div>
+    </select>
+
+
+    <div>
+    <label for="menores de 11 años">Cuantos menores de 11 años hay?</label>
+    <input
+    type="number" 
+    name="menores de 11 años"
+    placeholder="numero de menores de 11 años">
+</div>
+    
+    <br><br>
+    
+    
+        <label for="Comentarios">Comentarios</label>
+        <textarea
+        name="comentarios" 
+        id="comentarios"
+        rows="4"
+        cols="25"
+        placeholder="Escribe tus comentarios aqui">
+    </textarea>
+    
+        <br><br>
+    
+        <input 
+        type="checkbox"
+        id="acepto"
+        name="acepto_terminos"
+        value="si"
+        required>
+        <br>
+        <label for="acepto">acepto los terminos y condiciones</label>
+    
+        <br><br>
+    
+       <button
+       type="submit"
+       >
+       Enviar
+    </button>
+    
+       <button
+       type="reset"
+       >
+       Restablecer
+    </button>
+
+    
+
+        </form>
+
+
+<br>
+
+
+
+        
+
+
+
+<img style="height: 600px;width: 1000px;" src="ing/Cabo de la vela.jpg" alt="">
+    
+       
+    <br><br><br>
+
+
+   <h1 style="text-align: center;">DESCUBE TU PROXIMO DESTINO</h1>
+   <p style="text-align: center;">Inicia tu aventura en un nuevo destino y conoce diferentes culturas, que tus sueños de viajar no se acaben en un solo destino</p>
+   
+   
+
+   
+   <br><br>
+    <h2 style="text-align: center;">NUESTROS HOTELES NACIONALES</h2>
+    <p></p>
+<br><br>
+<nav>
+<img style="height: 170px;width: 200px;" src="ing/ADZ Tone 2022-03.jpg" alt="">
+<img style="height: 170px;width: 200px;" src="ing/La Guajira playa.jpeg" alt="">
+<img style="height: 170px;width: 200px;" src="ing/imagen del amazonas.jpeg" alt="">
+<img style="height: 170px;width: 200px;" src="ing/imagen de santa marta parque ty.jpeg" alt="">
+<br>
+</nav>
+
+<nav>
+    <a style="margin: 5%;" href="#">San Andres</a>
+    <a style="margin: 5%;" href="#">La Guajira</a>    
+    <a style="margin: 5%;" href="#">El Amazonas</a>
+    <a style="margin: 5%;" href="#">Santa Marta</a>
+    </nav>
+
+    <br>
+    <nav>
+        <img style="height: 170px;width: 200px;" src="ing/Cartagena org.png">
+<img style="height: 170px;width: 200px;" src="ing/Girardot.PNG" alt="">
+</nav>
+<nav>
+    <a style="margin: 5%;" href="#">Cartagena</a>
+    <a style="margin: 5%;" href="#">Girardot</a>
+</nav>
+
+<br>
+
+<h2>NUESTROS HOTELES INTERNACIONALES</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
